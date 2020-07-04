@@ -71,16 +71,16 @@ def input_invalid(**kwargs) -> bool:
     """
     Checks that the inputs given are valid for the required specifications.
     """
-    # If any of the arguments are less than one, return True
+    # If any of the arguments are less than one, then it returns True
     for val in kwargs.values():
         if val < 1:
             return True
 
-    # If m is greater than n, or a equals b, then return True
+    # If m is greater than n, or a equals b, then it returns True
     if (kwargs['m'] > kwargs['n']) or (kwargs['a'] == kwargs['b']):
         return True
 
-    # Return False if inputs pass conditional checks as they are valid
+    # Returns False if inputs pass conditional checks as they are valid
     return False
 
 
