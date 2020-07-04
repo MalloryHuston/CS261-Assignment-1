@@ -1,7 +1,7 @@
 # Course: CS261 - Data Structures
 # Student Name: Mallory Huston
 # Assignment: 1, Part 2
-# Description: Implementation of the min_max function as directed in the given specs.
+# Description: Implementation of the min_max function as directed in the given specs
 
 
 def min_max(arr: []) -> ():
